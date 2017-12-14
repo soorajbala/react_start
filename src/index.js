@@ -9,6 +9,6 @@ render(<
             padding: '10px'
         }
     } >
-    Sweet rascal </h1>,
+    Sweet rascal da </h1>,
     document.getElementById('react-conatiner')
 )

@@ -19,3 +19,5 @@ ft/wraith/shots
 /public/packs
 /node_modules
 /public
+package-lock.json
+package.json
