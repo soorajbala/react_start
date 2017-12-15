@@ -1,14 +1,10 @@
-const { render } = ReactDOM
+import React from 'react'
+import { render } from 'react-dom'
+import { hello, goodbye } from './libs'
 
-render(<
-    h1 className = 'header'
-    id = 'title'
-    style = {
-        {
-            backgroundColor: 'red',
-            padding: '10px'
-        }
-    } >
-    Sweet rascal da </h1>,
+render(<div>
+       {hello}
+       {goodbye}
+    </div>,
     document.getElementById('react-conatiner')
 )
