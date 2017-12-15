@@ -1,10 +1,11 @@
 import React from 'react'
 import text from './titles.json'
+import './css/style-css.css'
+import './css/style-sass.scss'
 
 export const hello = (
   <h1 id="title"
-      className="header"
-      style={{backgroundColor: 'red', color: 'yellow'}}
+      className="hello"
   >
     { text.hello }
   </h1>
@@ -12,8 +13,7 @@ export const hello = (
 
 export const goodbye = (
   <h1 id="title"
-      className="header"
-      style={{backgroundColor: 'red', color: 'yellow'}}
+      className="goodbye"
   >
     { text.goodbye }
   </h1>
